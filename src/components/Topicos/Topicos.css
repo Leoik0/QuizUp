@@ -1,0 +1,24 @@
+.topicos {
+  height: 40vh;
+  display: block;
+  text-align: start;
+}
+
+.swiper {
+  height: 70%;
+}
+
+.swiper-slide {
+  text-align: center;
+  margin-left: 1%;
+  width: auto;
+}
+
+.swiper-slide .tema-foto {
+  height: 8rem;
+  width: 8rem;
+}
+
+.p-category {
+  color: #fff;
+}

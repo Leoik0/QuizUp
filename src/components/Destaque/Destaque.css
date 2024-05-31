@@ -1,0 +1,45 @@
+.destaque {
+  height: 40vh;
+  text-align: center;
+}
+
+.destaque h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.best-users-container {
+  display: flex;
+  justify-content: center;
+}
+
+.best-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.rank-best-name {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: bold;
+  color: #fff;
+}

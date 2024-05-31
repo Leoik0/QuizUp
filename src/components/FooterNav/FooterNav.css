@@ -1,0 +1,37 @@
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1.4% 0;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #777;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  color: #e28e4a;
+}
+
+.nav-item i {
+  font-size: clamp(1.5rem, 2.6vw, 1.5rem);
+  margin-bottom: 0.5%;
+}
+
+.nav-item span {
+  font-size: clamp(0.9rem, 1.2vw, 0.8rem);
+}
+
+.active-link {
+  color: #333;
+  font-weight: bold;
+}

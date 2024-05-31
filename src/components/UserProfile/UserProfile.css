@@ -1,0 +1,175 @@
+.user-profile {
+  background: linear-gradient(to bottom, #2c135a, #0a0814);
+  color: #fff;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.back-icon {
+  color: #fff;
+}
+
+.profile-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  position: relative;
+}
+
+.edit-img {
+  position: absolute;
+  margin-left: -6%;
+  margin-top: 23%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-name {
+  line-height: 2px;
+  margin-left: 2px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.457);
+}
+
+.user-stats > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.user-stats > div span:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-stats > div span:nth-child(2) {
+  font-size: 10px;
+}
+
+.bio {
+  padding: 10px;
+}
+
+.bio h4 {
+  margin-bottom: 10px;
+}
+
+.bio p {
+  cursor: pointer;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  height: 90%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal p {
+  color: #fff;
+  max-width: 80%;
+  padding: 20px;
+  text-align: center;
+  background-color: #3a1b65;
+}
+
+.modal-photo {
+  background-color: #141212;
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.modal-title {
+  padding: 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.btn {
+  flex-grow: 1;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  background-color: #141212;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.3;
+}
+
+.cancel {
+  background-color: red;
+}
+
+.edit-bio {
+  padding: 20px;
+}
+
+.edit-bio textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.tabBar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.tabBar > button {
+  background-color: rgba(0, 0, 0, 0.457);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .profile-details {
+    padding: 10px;
+  }
+
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+  }
+}

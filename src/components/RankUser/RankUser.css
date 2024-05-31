@@ -1,0 +1,115 @@
+.rank-user-container {
+  background-image: url("https://imgs.search.brave.com/KSAUOTEl3BoEZeze7eUBshcxto2F9_3zLBnTMYGCkzM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vb21ldWRp/YWRpYS5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDcvZXNwYWRhLTEu/anBnP3Jlc2l6ZT02/NzQsMTAyNCZzc2w9/MQ");
+  height: 100vh;
+  color: #fff;
+}
+
+.rank-top {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.rank-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rank-header h2 {
+  margin-left: 10px;
+}
+
+.back-icon {
+  font-size: 1.5rem;
+}
+
+.rank-categorys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rank-categorys span {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2.4rem;
+  transition: background-color 0.3s ease;
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 10px;
+}
+
+.rank-categorys span:hover {
+  background-color: #e0e0e0;
+}
+
+.rank-best-users {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.best-user {
+  flex: 0 0 calc(33.33% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+}
+
+.best-user img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.best-user:nth-child(2) img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.rank-best-name {
+  font-weight: bold;
+}
+
+.number-best-rank {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.rank-list-users {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rank-user-item {
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.rank-score {
+  margin-left: auto;
+}
+
+.number-rank {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.rank-user-item img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

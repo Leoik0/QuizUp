@@ -1,0 +1,17 @@
+.home {
+  background-image: url("./bg.jpg");
+
+  height: 100dvh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.store {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
